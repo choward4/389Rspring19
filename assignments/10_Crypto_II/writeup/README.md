@@ -18,4 +18,8 @@ After reading the contents of the file, I followed the instructions by taking a 
 
 ### Part 2 (30 Pts)
 
+1. Both pictures are scrambled and encrypted. However, the cbc.bmp is much more scrambled than the ebc.bmp file. I am still able to make out the general shape of the orgininal picture from looking at the ebc file, while I cannot make out anything by looking at the cbc.bmp file.
+
+2. the ecb cipher is less secure. This is because it lacks the extra layer of complexity that the cbc cipher has. This is because with cbc, each block is dependent on all previous blocks processed up to that point. 
+
 *Your reflection goes here*
